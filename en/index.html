@@ -4,8 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Korea Toilet Map – Find Public Restrooms Near You in South Korea</title>
-  <meta name="description" content="Find the nearest public restroom anywhere in South Korea. An iPhone app with 80,000+ public and open toilets, opening hours, open-now status, and walking or driving directions. Available in English.">
+  <meta name="description" content="Find the nearest public restroom anywhere in South Korea. A free iPhone app with 80,000+ public and open toilets, opening hours, open-now status, and walking or driving directions in Apple Maps or Naver Map. Android version coming soon.">
   <meta name="apple-itunes-app" content="app-id=6810489980">
+  <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="https://fortranmentis.github.io/Korea-Toilet-Map/en/">
   <link rel="alternate" hreflang="ko" href="https://fortranmentis.github.io/Korea-Toilet-Map/">
   <link rel="alternate" hreflang="en" href="https://fortranmentis.github.io/Korea-Toilet-Map/en/">
@@ -16,55 +17,169 @@
   <link rel="alternate" hreflang="x-default" href="https://fortranmentis.github.io/Korea-Toilet-Map/en/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Korea Toilet Map – Find Public Restrooms Near You in South Korea">
-  <meta property="og:description" content="Find the nearest public restroom anywhere in South Korea. An iPhone app with 80,000+ public and open toilets, opening hours, open-now status, and walking or driving directions. Available in English.">
+  <meta property="og:description" content="Find the nearest public restroom anywhere in South Korea. A free iPhone app with 80,000+ public and open toilets, opening hours, open-now status, and walking or driving directions in Apple Maps or Naver Map. Android version coming soon.">
   <meta property="og:url" content="https://fortranmentis.github.io/Korea-Toilet-Map/en/">
   <meta property="og:image" content="https://fortranmentis.github.io/Korea-Toilet-Map/assets/icon-256.png">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="../assets/favicon.png">
   <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
   <link rel="stylesheet" href="../landing.css">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "MobileApplication", "name": "Korea Toilet Map", "alternateName": "helppoopy", "description": "Find the nearest public restroom anywhere in South Korea. An iPhone app with 80,000+ public and open toilets, opening hours, open-now status, and walking or driving directions. Available in English.", "operatingSystem": "iOS 26.0+", "applicationCategory": "TravelApplication", "inLanguage": ["ko", "en", "ja", "zh-Hans", "zh-Hant", "ar"], "url": "https://fortranmentis.github.io/Korea-Toilet-Map/en/", "downloadUrl": "https://apps.apple.com/app/id6810489980", "image": "https://fortranmentis.github.io/Korea-Toilet-Map/assets/icon-256.png", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "KRW"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "MobileApplication", "name": "Korea Toilet Map", "alternateName": ["Korea Toilet Map", "helppoopy"], "description": "Find the nearest public restroom anywhere in South Korea. A free iPhone app with 80,000+ public and open toilets, opening hours, open-now status, and walking or driving directions in Apple Maps or Naver Map. Android version coming soon.", "operatingSystem": "iOS 26.0+", "applicationCategory": "TravelApplication", "inLanguage": ["ko", "en", "ja", "zh-Hans", "zh-Hant", "ar"], "url": "https://fortranmentis.github.io/Korea-Toilet-Map/en/", "downloadUrl": "https://apps.apple.com/app/id6810489980", "image": "https://fortranmentis.github.io/Korea-Toilet-Map/assets/icon-256.png", "screenshot": ["https://fortranmentis.github.io/Korea-Toilet-Map/assets/screen-7577.jpg", "https://fortranmentis.github.io/Korea-Toilet-Map/assets/screen-7580.jpg", "https://fortranmentis.github.io/Korea-Toilet-Map/assets/screen-7583.jpg", "https://fortranmentis.github.io/Korea-Toilet-Map/assets/screen-7582.jpg", "https://fortranmentis.github.io/Korea-Toilet-Map/assets/screen-7581.jpg", "https://fortranmentis.github.io/Korea-Toilet-Map/assets/screen-7585.jpg", "https://fortranmentis.github.io/Korea-Toilet-Map/assets/screen-7584.jpg", "https://fortranmentis.github.io/Korea-Toilet-Map/assets/screen-7578.jpg"], "offers": {"@type": "Offer", "price": "0", "priceCurrency": "KRW"}}</script>
 </head>
 <body>
-  <nav class="langs" aria-label="Language"><a href=".././" hreflang="ko" lang="ko">한국어</a> · <a href="../en/" hreflang="en" lang="en" aria-current="page">English</a> · <a href="../ja/" hreflang="ja" lang="ja">日本語</a> · <a href="../zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ar/" hreflang="ar" lang="ar">العربية</a></nav>
-  <header class="hero">
-    <img class="icon" src="../assets/icon-256.png" alt="" width="128" height="128">
-    <h1>Korea Toilet Map</h1>
-    <p class="tagline">The nearest public restroom in Korea, right now.</p>
-    <p class="lead">Find any of 80,000+ public and open restrooms across South Korea on a map, see which ones are open now, and get directions. Built for both walking and driving, and fully available in English for travelers.</p>
-    <a class="cta" href="https://apps.apple.com/app/id6810489980">Download free on the App Store</a>
+  <header class="globalnav">
+    <div class="globalnav-inner">
+      <a class="brand" href="../"><img src="../assets/favicon.png" alt="" width="24" height="24">Korea Toilet Map</a>
+      <div class="globalnav-actions">
+        <details class="langmenu">
+          <summary aria-label="Language">English</summary>
+          <nav aria-label="Language">
+          <a href=".././" hreflang="ko" lang="ko">한국어</a>
+          <a href="../en/" hreflang="en" lang="en" aria-current="page">English</a>
+          <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+          <a href="../zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+          <a href="../zh-hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+          <a href="../ar/" hreflang="ar" lang="ar">العربية</a>
+          </nav>
+        </details>
+        <a class="button small" href="https://apps.apple.com/app/id6810489980">Download</a>
+      </div>
+    </div>
   </header>
+
   <main>
-    <section>
-      <h2>Features</h2>
-      <ul class="features">
-      <li><h3>Nearest open restroom</h3><p>One tap finds the closest restroom that is open right now.</p></li>
-      <li><h3>Opening hours</h3><p>Understands 24-hour, daytime, and overnight schedules and separates open from closed places.</p></li>
-      <li><h3>Walking &amp; driving modes</h3><p>On foot, see restrooms around you. Driving, see options ahead of you ranked by route distance.</p></li>
-      <li><h3>Apple Maps &amp; Naver Map</h3><p>Start walking or driving directions to the restroom you picked.</p></li>
-      <li><h3>Grade filters</h3><p>Show Gold, Silver, or Bronze facilities, or only places that are open now.</p></li>
-      <li><h3>Six languages</h3><p>Korean, English, Japanese, Simplified Chinese, Traditional Chinese, and Arabic.</p></li>
-      </ul>
+    <section class="hero">
+      <img class="app-icon" src="../assets/icon-256.png" alt="" width="112" height="112">
+      <p class="eyebrow">Free for iPhone and iPad</p>
+      <h1>Korea Toilet Map</h1>
+      <p class="tagline">When you need to go, the nearest restroom.</p>
+      <p class="lead">Over 80,000 public and open restrooms across South Korea on one map. Pick one that is open right now and go straight to directions — on foot or behind the wheel.</p>
+      <div class="cta-row">
+        <a class="button" href="https://apps.apple.com/app/id6810489980">Download on the App Store</a>
+        <span class="badge">Android version coming soon</span>
+      </div>
+      <img class="phone hero-phone" src="../assets/screen-7577.jpg" alt="Mode picker screen of the Korea Toilet Map app" width="461" height="1000">
     </section>
-    <section>
-      <h2>Screenshots</h2>
-      <div class="screens">
-      <img src="../assets/screen-7577.jpg" alt="Mode picker" width="461" height="1000" loading="lazy">
-      <img src="../assets/screen-7580.jpg" alt="Map of nearby public restrooms in Seoul" width="461" height="1000" loading="lazy">
-      <img src="../assets/screen-7583.jpg" alt="Restroom opening hours and directions at Gangnam Station" width="461" height="1000" loading="lazy">
+
+    <section class="stats">
+      <div class="stat"><strong>80K+</strong><span>public &amp; open restrooms</span></div>
+      <div class="stat"><strong>6</strong><span>languages</span></div>
+      <div class="stat"><strong>0</strong><span>locations sent to a server</span></div>
+      <div class="stat"><strong>Free</strong><span>and no ads</span></div>
+    </section>
+
+    <section class="feature">
+      <div class="feature-inner">
+        <div class="feature-copy">
+          <p class="eyebrow">Walking mode</p>
+          <h2>Every restroom nearby,<br>at a glance.</h2>
+          <p>Open the map and nearby public restrooms appear as pins. Busy districts are clustered so the map stays readable, then spread out as you zoom in. Turn your phone and the map turns with you.</p>
+        </div>
+        <img class="phone" src="../assets/screen-7580.jpg" alt="Map of public restrooms around Gangnam Station, Seoul" width="461" height="1000" loading="lazy">
       </div>
     </section>
-    <section>
-      <h2>FAQ</h2>
-      <details><summary>Where do I find a public toilet in Seoul or Busan?</summary><p>Open the app, tap &quot;Nearest restroom&quot;, and it finds the closest open public restroom from your location anywhere in South Korea.</p></details>
-      <details><summary>Is it free?</summary><p>Yes, the app is free on the App Store.</p></details>
-      <details><summary>Does it work offline?</summary><p>The restroom data is bundled in the app, so nearby search runs on your device. Map tiles and directions need an internet connection.</p></details>
-      <details><summary>Is my location sent anywhere?</summary><p>No. Your location is used only on your device and is never sent to a server.</p></details>
+    <section class="feature alt">
+      <div class="feature-inner">
+        <div class="feature-copy">
+          <p class="eyebrow">Open now</p>
+          <h2>No more walking up<br>to a locked door.</h2>
+          <p>Each restroom keeps different hours — 24 hours, daytime only, overnight. The app reads them all and shows which are open right now. One tap on &quot;Nearest restroom&quot; searches the entire country for the closest one that is open.</p>
+        </div>
+        <img class="phone" src="../assets/screen-7583.jpg" alt="Opening hours and directions button for a restroom at Gangnam Station" width="461" height="1000" loading="lazy">
+      </div>
+    </section>
+    <section class="feature">
+      <div class="feature-inner">
+        <div class="feature-copy">
+          <p class="eyebrow">Grades</p>
+          <h2>Different needs,<br>different restrooms.</h2>
+          <p>Gold for hotel-level comfort when you have time. Silver for a clean, reliable choice. Bronze for the fastest option when it can&#x27;t wait. Closed places or those without hours turn grey, so you can tell at a glance.</p>
+        </div>
+        <img class="phone" src="../assets/screen-7582.jpg" alt="Gold, Silver and Bronze restroom grades" width="461" height="1000" loading="lazy">
+      </div>
+    </section>
+    <section class="feature alt">
+      <div class="feature-inner">
+        <div class="feature-copy">
+          <p class="eyebrow">Filters</p>
+          <h2>Keep only what<br>you want to see.</h2>
+          <p>Toggle Gold, Silver, and Bronze on or off, and turn on &quot;Open restrooms only&quot; to hide everything that&#x27;s closed. Even in the busiest parts of Seoul, the map shows just what you need.</p>
+        </div>
+        <img class="phone" src="../assets/screen-7581.jpg" alt="Grade and open-now filter settings" width="461" height="1000" loading="lazy">
+      </div>
+    </section>
+    <section class="feature">
+      <div class="feature-inner">
+        <div class="feature-copy">
+          <p class="eyebrow">Driving mode</p>
+          <h2>On the road,<br>only what&#x27;s ahead.</h2>
+          <p>Using your GPS heading, the app skips what&#x27;s behind you and finds restrooms ahead on your way. Results are ranked by real driving distance, up to five at a time — perfect for planning a stop at a rest area or gas station.</p>
+        </div>
+        <img class="phone" src="../assets/screen-7585.jpg" alt="Driving mode list of restrooms ahead" width="461" height="1000" loading="lazy">
+      </div>
+    </section>
+    <section class="feature alt">
+      <div class="feature-inner">
+        <div class="feature-copy">
+          <p class="eyebrow">Directions</p>
+          <h2>Pick one.<br>Then just go.</h2>
+          <p>Choose a restroom and walking or driving directions start right away in Apple Maps or Naver Map. If Naver Map isn&#x27;t installed, the app takes you to the App Store to get it.</p>
+        </div>
+        <img class="phone" src="../assets/screen-7584.jpg" alt="Choosing Apple Maps or Naver Map" width="461" height="1000" loading="lazy">
+      </div>
+    </section>
+    <section class="feature">
+      <div class="feature-inner">
+        <div class="feature-copy">
+          <p class="eyebrow">Six languages</p>
+          <h2>Made for everyone<br>visiting Korea.</h2>
+          <p>Korean, English, Japanese, Simplified Chinese, Traditional Chinese, and Arabic. Restroom names and addresses are translated on your device, so you can find your way without reading Korean.</p>
+        </div>
+        <img class="phone" src="../assets/screen-7578.jpg" alt="Language menu" width="461" height="1000" loading="lazy">
+      </div>
+    </section>
+
+    <section class="statement dark">
+      <p class="eyebrow">Privacy</p>
+      <h2>Your location<br>stays on your phone.</h2>
+      <p>All restroom data ships inside the app, so every search runs on your device. Your location is never sent to a server and there&#x27;s no account to create. An on-device spatial index reads only the area on screen, so the map stays fast.</p>
+    </section>
+
+    <section class="statement" id="android">
+      <p class="eyebrow">Android</p>
+      <h2>Android is<br>on the way.</h2>
+      <p>We&#x27;re preparing an Android version for Galaxy and other Android phones. This page will be the first place to announce it. Questions? Email us below.</p>
+      <span class="badge">Android version coming soon</span>
+    </section>
+
+    <section class="faq">
+      <div class="faq-inner">
+        <h2>Frequently asked questions</h2>
+        <details><summary>Where can I find a public toilet in Seoul or Busan?</summary><p>Open the app and tap &quot;Nearest restroom&quot;. It finds the closest open public restroom from your location anywhere in South Korea — subway stations, parks, government buildings, gas stations, and shops that open their restrooms to the public.</p></details>
+        <details><summary>Is it free?</summary><p>Yes. The app is free on the App Store and has no ads.</p></details>
+        <details><summary>Is there an Android version?</summary><p>Not yet. The app is available for iPhone and iPad today, and an Android version is coming soon.</p></details>
+        <details><summary>Does it work offline?</summary><p>The restroom data is bundled in the app, so nearby search runs on your device. Map tiles and directions need an internet connection.</p></details>
+        <details><summary>Is my location sent anywhere?</summary><p>No. Your location is used only on your device and is never sent to a server.</p></details>
+        <details><summary>The information is wrong for a restroom.</summary><p>The data comes from Korea&#x27;s public data portal and may differ from conditions on site. Let us know by email and we&#x27;ll look into it.</p></details>
+      </div>
+    </section>
+
+    <section class="final">
+      <img class="app-icon" src="../assets/icon-256.png" alt="" width="96" height="96">
+      <h2>Get it now,<br>before you need it.</h2>
+      <div class="cta-row">
+        <a class="button" href="https://apps.apple.com/app/id6810489980">Download on the App Store</a>
+        <span class="badge">Android version coming soon</span>
+      </div>
     </section>
   </main>
+
   <footer>
-    <p>Restroom data: Public Data Portal of Korea (data.go.kr). Actual conditions may differ on site.</p>
-    <p><a href="https://apps.apple.com/app/id6810489980">App Store</a> · <a href="../support.html">Support</a> · <a href="../privacy.html">Privacy Policy</a> · <a href="mailto:vin9604@gmail.com">vin9604@gmail.com</a></p>
+    <div class="footer-inner">
+      <p>Restroom data: Public Data Portal of Korea (data.go.kr). Actual conditions may differ on site.</p>
+      <p class="footer-links"><a href="https://apps.apple.com/app/id6810489980">App Store</a><a href="../support.html">Support</a><a href="../privacy.html">Privacy Policy</a><a href="mailto:vin9604@gmail.com">vin9604@gmail.com</a></p>
+      <p class="footer-langs"><a href=".././" hreflang="ko" lang="ko">한국어</a> <a href="../en/" hreflang="en" lang="en">English</a> <a href="../ja/" hreflang="ja" lang="ja">日本語</a> <a href="../zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="../zh-hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="../ar/" hreflang="ar" lang="ar">العربية</a></p>
+    </div>
   </footer>
 </body>
 </html>
