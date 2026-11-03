@@ -24,3 +24,7 @@ App Store Connect가 요구하는 두 개의 URL을 이 저장소 하나로 제�
 
 앱 동작이 바뀌면 해당 절과 `privacy.html` 하단의 시행일을 함께 갱신해 주세요.
 현재 시행일: 2026년 9월 10일
+
+## 2026-11-03 갱신
+
+6개 언어의 운전자 검색·15/50km 범위·iOS/Android 거리 계산 차이·Android 15개 언어 UI·iOS 평가 메뉴 안내를 원본 `helppoopy/tools/build_site.py`에서 갱신해 재생성했습니다. 소스 기능과 스토어 출시 상태는 구분합니다.

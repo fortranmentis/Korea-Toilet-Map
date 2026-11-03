@@ -114,7 +114,7 @@
         <div class="feature-copy">
           <p class="eyebrow">運転モード</p>
           <h2>運転中は<br>前方だけを。</h2>
-          <p>GPSの進行方向をもとに、通り過ぎた道を除いて進む先のトイレだけを探します。実際の車のルート距離で近い順に最大5か所を表示します。</p>
+          <p>進行方向の15km以内を検索し、周辺候補がすべて閉まっている場合は営業中の施設を最大50kmまで探します。iOSはMapKitの自動車ルートと所要時間で最大5件を比較します。15・50kmは直線距離の検索範囲です。実際の道順は地図アプリで確認してください。</p>
         </div>
         <img class="phone" src="../assets/screen-7585.jpg" alt="運転モードの前方トイレ一覧" width="461" height="1000" loading="lazy">
       </div>
@@ -149,7 +149,7 @@
     <section class="statement" id="android">
       <p class="eyebrow">Android</p>
       <h2>Android版も<br>準備中です。</h2>
-      <p>GalaxyなどAndroid端末向けのアプリをリリースに向けて準備しています。リリース情報はこのページでいち早くお知らせします。</p>
+      <p>Android版は徒歩・運転検索、営業時間・等級フィルター、15言語UIを実装し、公開準備中です。運転検索は前方15kmの候補を直線距離で並べ、条件に応じて営業中の施設を50kmまで検索します。Google Playでの公開を意味しません。</p>
       <span class="badge">Android版 準備中</span>
     </section>
 
@@ -161,6 +161,7 @@
         <details><summary>Android版はありますか？</summary><p>現在はiPhone・iPad向けに提供しており、Android版は準備中です。</p></details>
         <details><summary>オフラインでも使えますか？</summary><p>トイレのデータはアプリに内蔵されているため、周辺検索は端末内で行われます。地図の表示と道案内にはインターネットが必要です。</p></details>
         <details><summary>位置情報は送信されますか？</summary><p>いいえ。位置情報は端末内でのみ使用されます。</p></details>
+        <details><summary>利用後に評価できますか？</summary><p>最新のiOSソースには設定の評価メニューと、道案内から戻った後の評価リクエストがあります。システム表示はAppleが判断し、インストールしたバージョンにより異なります。</p></details>
       </div>
     </section>
 
